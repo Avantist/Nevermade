@@ -1,0 +1,68 @@
+/* Mobile First View: */
+
+main{
+	padding-bottom: 10px;
+}
+
+h3 {
+	text-align: center;
+}
+
+article {
+	
+	color: #212124;
+	font-size: 120%;
+	
+}
+
+article a {
+	color: #171210;
+	padding: 5px;
+	text-decoration: none;
+}
+
+/* Change the color of article links on hover using mouse */
+article a:hover {
+  background-color: #E3DFDE;
+  
+  color: #1f1916;
+}
+
+
+/* Change the color of article links on focus using tab key */
+article a:focus {
+  background-color: white;
+  color: #120e0d;
+  outline: none;
+}
+
+
+#main_image, #second_image {
+	width: 100%;
+}
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+	main {
+		display: block;
+
+	}
+
+	aside {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		float: left;
+		justify-content: center;
+		width: 30%;
+	}
+
+	section {
+		display: inline;
+
+		width: 70%;
+	}
+
+}

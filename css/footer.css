@@ -1,0 +1,113 @@
+/* Mobile First View: */
+
+footer {
+  background-color: #000000;
+	padding: 7px;
+  left: 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  bottom: -100px;
+    
+
+}
+
+/* colour the text of links in the footer black */
+footer a {
+	color: #4B3C35;
+}
+
+/* Change the colour of links in the footer on hover using mouse */
+footer a:hover {
+  background-color: #4B3C35;
+  color: white;
+  outline: none;
+  padding: 10px;
+}
+
+/* Change the color of links in the footer on focus using tab button */
+footer a:focus {
+  background-color: black;
+  color: white;
+  outline: none;
+	padding: 10px;
+}
+
+h2 {
+  color: #E3DFDE;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  display: inline-flex;
+  align-self: flex-start;
+  margin-left: 100px;
+}
+
+#facebook_image{
+  width: 30px;
+  padding: 4px;
+  display: inline-flex;
+  align-self: flex-start;
+  float: bottom           ;
+  margin-right: 60px;
+  margin-top: 0px;
+}
+
+#instagram_image{
+  width: 30px;
+  padding: 4px;
+  display: inline-flex;
+  align-self: normal;
+  float: bottom           ;
+  margin-top: 0px;
+}
+
+#youtube_image  {
+  width: 30px;
+  padding: 3px;
+  display: inline-flex;
+  align-self: flex-start;
+  float: bottom           ;
+  margin-top: 0px;
+}
+
+		
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+  footer {
+
+
+  width: 100%;
+  height: 50px;
+  }
+
+  #facebook_image{
+  width: 40px;
+  padding: 4px;
+  display: inline-flex;
+  align-self: flex-start;
+  float: right;
+  margin-right: 60px;
+  margin-top: 0px;
+}
+
+#instagram_image{
+  width: 40px;
+  padding: 4px;
+  display: inline-flex;
+  align-self: normal;
+  float: right;
+  margin-top: 0px;
+}
+
+#youtube_image  {
+  width: 40px;
+  padding: 3px;
+  display: inline-flex;
+  align-self: flex-start;
+  float: right;
+  margin-top: 0px;
+}
+}

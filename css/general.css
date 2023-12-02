@@ -1,0 +1,67 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	background-attachment: scroll;
+	background: url("../images/img_background.png") 40%, linear-gradient(to bottom, #1b475b 0%, #0e171c 76%,#000000 100%);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	min-height: 100%;
+    margin: 0;
+	
+
+
+}
+
+.content 
+{
+	padding: 10px 10px;
+	background-color: #a3c3d4;
+	min-height: 100%;
+	border-radius: 0% 0% 3% 3%;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+	background: #000000;
+
+}
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+	.content 
+{
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+
+    
+}
+
+html{
+	height: 100%;
+	margin: 0;
+	background: linear-gradient(#000000);
+	background-size: inherit;
+
+}	
+
+main {
+		display: block;
+		
+	}
+
+	section {
+		display: inline;
+
+		width: 70%;
+	}
+
+}
