@@ -4,7 +4,7 @@
 header {
   background-color: #183d4e;
   overflow: hidden;
-  opacity: none;
+  opacity: 1;
   position: sticky;
   top: 0;
 }
@@ -17,7 +17,7 @@ header {
 /* Style the image we use as a label for the hamburger menu checkbox */
 #hamburger_image {
   background-color: white;
-  opacity: none;
+  opacity: 1;
   display: inline-flex;
   align-self: flex-start;
   float: right;

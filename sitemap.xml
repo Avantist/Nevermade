@@ -1,37 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>http://www.NeverMade</loc>
+		<loc>http://www.nevermade.com.au</loc>
 		<priority>1.00</priority>
 		<lastmod>2023-11-29</lastmod>
 	</url>
 	<url>
-		<loc>http://www.NeverMade/underConstruction.html</loc>
+		<loc>http://www.nevermade.com.au/underConstruction.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-11-29</lastmod>
 	</url>
 	<url>
-		<loc>http://www.NeverMade/support.html</loc>
+		<loc>http://www.nevermade.com.au/films_ClownCried.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2023-12-02</lastmod>
+	</url>
+	<url>
+		<loc>http://www.nevermade.com.au/contact.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-11-29</lastmod>
 	</url>
 	<url>
-		<loc>http://www.NeverMade/films_ClownCried.html</loc>
+		<loc>http://www.nevermade.com.au/categories.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2023-11-29</lastmod>
+		<lastmod>2023-12-02</lastmod>
 	</url>
 	<url>
-		<loc>http://www.NeverMade/contact.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-11-29</lastmod>
-	</url>
-	<url>
-		<loc>http://www.NeverMade/categories.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2023-11-29</lastmod>
-	</url>
-	<url>
-		<loc>http://www.NeverMade/about.html</loc>
+		<loc>http://www.nevermade.com.au/about.html</loc>
 		<priority>0.50</priority>
 		<lastmod>2023-11-29</lastmod>
 	</url>

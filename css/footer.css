@@ -48,7 +48,7 @@ h2 {
   padding: 4px;
   display: inline-flex;
   align-self: flex-start;
-  float: bottom           ;
+         ;
   margin-right: 60px;
   margin-top: 0px;
 }
@@ -58,7 +58,7 @@ h2 {
   padding: 4px;
   display: inline-flex;
   align-self: normal;
-  float: bottom           ;
+         ;
   margin-top: 0px;
 }
 
@@ -67,7 +67,7 @@ h2 {
   padding: 3px;
   display: inline-flex;
   align-self: flex-start;
-  float: bottom           ;
+ 
   margin-top: 0px;
 }
 
